@@ -47,7 +47,6 @@ query getAllPeople($page: Int!){
 //     }
 //   }
 // `;
-
 const Home = () => {
   const [page, setPage] =  React.useState(0);
   const [allPeople, setAllPeople] = React.useState([]);
