@@ -1,0 +1,16 @@
+nav.navbar{
+    padding: 0rem 1rem;
+    justify-content: space-between !important;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+nav.navbar img{ width: 40px; }
+nav.navbar input{
+    max-width: 250px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/* @media only screen and (max-width: 978px) {
+   nav.navbar img{ width: 80px; }
+} */

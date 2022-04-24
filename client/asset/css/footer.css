@@ -1,0 +1,49 @@
+.scroll-top {
+    z-index: 99;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    color: #fff;
+    display: block;
+    line-height: .7;
+    font-size: 40px;
+    position: fixed;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    background: #007bff;
+    transition: .2s ease-in-out;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.25);
+ }
+ .footer{
+    z-index: 10;
+    border-radius: 0 !important;
+ }
+ 
+ .footer .card-body{ margin: auto; }
+ 
+ .footer ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+ }
+ 
+ .footer b{font-weight: 600;}
+ 
+ .footer ul li, .footer ul li a{
+    font-size: 14px;
+    font-weight: 300;
+    color: #b2b2b2;
+    text-decoration: none;
+ }
+ 
+ .footer ul li {
+    margin-top: 6px;
+    width: auto !important;
+    padding: 0 7px !important;
+    border-right: 1px solid #b2b2b2;
+ }
+ 
+ .footer li:last-child { border-right: none; }

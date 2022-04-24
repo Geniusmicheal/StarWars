@@ -1,0 +1,6 @@
+.parallax{
+    min-height: 500px;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+      background: #000 url('https://lumiere-a.akamaihd.net/v1/images/tfu-sam-new-swcom-slide-desktop-_2_b7904a72.jpeg?region=0,0,2048,870&width=1200') no-repeat fixed center top;
+ }
