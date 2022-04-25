@@ -38,5 +38,5 @@
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.3.0"
   },
-  "engines": {"node": ">=18.0.0"}
+  "engines": {"node": ">=14.18.2"}
 }
