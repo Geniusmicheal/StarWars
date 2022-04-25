@@ -8,7 +8,7 @@
     "watch": "NODE_ENV=development ts-node-dev index.ts",
     "start:dev": "parcel --port=7001 client/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently  \"node --port=7001 client/index.html\" \"NODE_ENV=development node index.ts\""
+    "start": "concurrently  \"parcel --port=7001 client/index.html\" \"NODE_ENV=development ts-node-dev index.ts\""
   },
   "keywords": [],
   "author": "",
