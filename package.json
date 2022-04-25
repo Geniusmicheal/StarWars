@@ -8,7 +8,7 @@
     "watch": "NODE_ENV=development ts-node-dev index.ts",
     "start:dev": "parcel --port=7001 client/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently  \"node client/index.html\" \"NODE_ENV=development node index.ts\""
+    "start": "concurrently  \"node --port=7001 client/index.html\" \"NODE_ENV=development node index.ts\""
   },
   "keywords": [],
   "author": "",
@@ -38,5 +38,5 @@
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.3.0"
   },
-  "engines": {"node": ">=10.0.0"}
+  "engines": {"node": ">=18.0.0"}
 }

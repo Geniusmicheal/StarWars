@@ -1,7 +1,7 @@
 const app = require('express')();
 
 const cors = require('cors');
-import accessEnv from "./helper/accessEnv";
+const accessEnv = require("./helper/accessEnv");
 const typeDefs = require("./server/schema");
 const StarWarsAPI = require("./server/StarWarsAPI");
 const resolvers = require("./server/resolvers");
